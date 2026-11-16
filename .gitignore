@@ -1,0 +1,68 @@
+# Dependencies & Package Managers
+node_modules/
+apache-maven-*/
+maven.zip
+package-lock.json.bak
+
+# Build outputs
+target/
+build/
+dist/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Python & Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documents and Presentations
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.pdf
+slides.txt
+chat*.json
+hdfc_output.json
+stocks_output.json
+test_login.ps1
+
+# Report / Presentation generation helper scripts
+generate_*.py
+scan_*.py
+extract_docx.py
+insert_code_snippets.py
+add_missing_slides.py
+update_toc.py
+deep_scan.py
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
